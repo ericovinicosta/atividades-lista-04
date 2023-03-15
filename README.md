@@ -50,7 +50,6 @@ Exercícios Com Listas
        Terceiro Salto: 6.2 m
        Quarto Salto: 5.4 m
        Quinto Salto: 5.3 m
-       
        Resultado final:
        Atleta: Rodrigo Curvêllo
        Saltos: 6.5 - 6.1 - 6.2 - 5.4 - 5.3
