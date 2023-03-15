@@ -1,7 +1,5 @@
 # Lista de Atividades 04
 
-Lista de Atividades 4
-
 Exercícios Com Listas
     1. Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
     2. Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem inversa.
@@ -44,7 +42,6 @@ Exercícios Com Listas
        Desafio: Crie ma fórmula para chegar na posição da lista a partir do salário, sem fazer vários ifs aninhados.
     17. Em uma competição de salto em distância cada atleta tem direito a cinco saltos. O resultado do atleta será determinado pela média dos cinco valores restantes. Você deve fazer um programa que receba o nome e as cinco distâncias alcançadas pelo atleta em seus saltos e depois informe o nome, os saltos e a média dos saltos. O programa deve ser encerrado quando não for informado o nome do atleta. A saída do programa deve ser conforme o exemplo abaixo:
        Atleta: Rodrigo Curvêllo
-
        Primeiro Salto: 6.5 m
        Segundo Salto: 6.1 m
        Terceiro Salto: 6.2 m
@@ -61,7 +58,7 @@ Exercícios Com Listas
         d. O número do jogador escolhido como o melhor jogador da partida, juntamente com o número de votos e o percentual de votos dados a ele.
             ▪ Observe que os votos inválidos e o zero final não devem ser computados como votos. O resultado aparece ordenado pelo número do jogador. O programa deve fazer uso de arrays. O programa deverá executar o cálculo do percentual de cada jogador através de uma função. Esta função receberá dois parâmetros: o número de votos de um jogador e o total de votos. A função calculará o percentual e retornará o valor calculado. Abaixo segue uma tela de exemplo. O disposição das informações deve ser o mais próxima possível ao exemplo. Os dados são fictícios e podem mudar a cada execução do programa. Ao final, o programa deve ainda gravar os dados referentes ao resultado da votação em um arquivo texto no disco, obedecendo a mesma disposição apresentada na tela.
        Enquete: Quem foi o melhor jogador?
-       
+
        Número do jogador (0=fim): 9
        Número do jogador (0=fim): 10
        Número do jogador (0=fim): 9
