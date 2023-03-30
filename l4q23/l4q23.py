@@ -61,6 +61,14 @@ print(relatorio_header)
 for i in range(len(l_nomes)):
     nome = str(l_nomes[i])
     espaco = l_espaco_ocupado[i]
-    print(f'{i+1:3} {nome:15} {converte_byte_em_megabyte(espaco):7} MB {calcula_percentual_uso(espaco, total):5}%')
+    print(f'{str(i+1):4} {nome:15} {converte_byte_em_megabyte(espaco):>10} MB {calcula_percentual_uso(espaco, total):>10}%')
 
 print(relatorio_footer)
+
+with open('relatorio.txt',mode='w',encoding='utf-8') as usuario:
+    usuario.write(f'{relatorio_header}\n')
+    for i in range(len(l_nomes)):
+        nome = str(l_nomes[i])
+        espaco = l_espaco_ocupado[i]
+        usuario.write(f'{str(i+1):4} {nome:15} {converte_byte_em_megabyte(espaco):>10} MB {calcula_percentual_uso(espaco, total):>10}%\n')
+    usuario.write(f'{relatorio_footer}\n')
